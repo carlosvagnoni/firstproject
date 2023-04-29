@@ -16,7 +16,7 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             VStack {
                 if isTextShowing {
-                    Text("Endrina, I love you!").font(.largeTitle).foregroundColor(Color.blue)
+                    Text("Endrina, I love you!").font(.largeTitle).fontWeight(.bold).foregroundColor(Color.blue)
                 } else {
                     Text("Endrina, I DON'T love you!").font(.largeTitle).foregroundColor(Color.red)
                 }
