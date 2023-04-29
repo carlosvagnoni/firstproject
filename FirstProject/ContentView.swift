@@ -23,10 +23,10 @@ struct ContentView: View {
                 Button("Love or not") {
                     isTextShowing.toggle()
                 }
-                Menu(/*@START_MENU_TOKEN@*/"Menu"/*@END_MENU_TOKEN@*/) {
-                    /*@START_MENU_TOKEN@*/Text("Menu Item 1")/*@END_MENU_TOKEN@*/
-                    /*@START_MENU_TOKEN@*/Text("Menu Item 2")/*@END_MENU_TOKEN@*/
-                    /*@START_MENU_TOKEN@*/Text("Menu Item 3")/*@END_MENU_TOKEN@*/
+                Menu("Mode") {
+                    Text("Good")
+                    Text("Meh")
+                    Text("Bad")
                 }
             }
         }
